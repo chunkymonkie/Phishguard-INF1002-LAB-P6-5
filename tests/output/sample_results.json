@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-10T12:08:06.740349",
+    "total_emails": 1,
+    "generator": "PhishGuard v1.0.0"
+  },
+  "results": [
+    {
+      "file_path": "emails/test1.eml",
+      "from_addr": "phisher@fake.com",
+      "subject": "Win a prize!",
+      "classification": "phishing",
+      "total_score": 20,
+      "rule_hits": [
+        {
+          "rule_name": "Suspicious Link",
+          "passed": false
+        },
+        {
+          "rule_name": "Urgent Language",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

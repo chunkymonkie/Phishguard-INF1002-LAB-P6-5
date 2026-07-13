@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: phishguard
+Version: 0.1.0
+Summary: Rule-based phishing email detection (INF1002)
+Requires-Python: >=3.10

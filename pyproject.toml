@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phishguard"
+version = "0.1.0"
+description = "Rule-based phishing email detection (INF1002)"
+requires-python = ">=3.10"
+
+[project.scripts]
+phishguard = "phishguard.cli.main:main"
+
+# Tell setuptools where packages live
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["phishguard*"]
+exclude = []

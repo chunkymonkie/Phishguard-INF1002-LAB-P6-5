@@ -1,0 +1,2 @@
+file_path,from_addr,subject,classification,total_score,rule_hits_count,failed_rules
+emails/test1.eml,phisher@fake.com,Win a prize!,phishing,20,2,Suspicious Link
